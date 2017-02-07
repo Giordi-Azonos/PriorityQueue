@@ -10,8 +10,6 @@ In this project, the Priority Queue Class is implemented using different Data St
 pqueue-hybrid -> combines the array and linked-list concepts into a singly-linked list of blocks, 
 	where each block contains a constant-sized array capable of holding several elements.
 	
-	By storing several elements in each block, 
-	
 	By storing several elements in each block, the storage overhead get reduced because the pointers 
 	take up a smaller fraction of the data. However, because the blocks are of a fixed maximum size, 
 	inserting an element into a block never requires shifting more than k elements, where k is the 
